@@ -115,7 +115,8 @@ src/
 │   ├── CartPage.ts
 │   └── CheckoutPage.ts
 ├── steps/
-│   └── steps.ts
+│   ├── login.steps.ts
+│   └── purchase.steps.ts
 └── support/
     └── hooks.ts
 ```
@@ -171,4 +172,3 @@ El video se configura al crear el `BrowserContext`:
 ```typescript
 recordVideo
 ```
-
