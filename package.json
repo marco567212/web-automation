@@ -1,0 +1,20 @@
+{
+  "name": "sauce-demo-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reto QA FrontEnd",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:chromium": "BROWSER=chromium cucumber-js",
+    "test:firefox": "BROWSER=firefox cucumber-js",
+    "test:webkit": "BROWSER=webkit cucumber-js",
+    "test:all": "npm run test:chromium && npm run test:firefox && npm run test:webkit"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^24.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
